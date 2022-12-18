@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace P9_1214064.view
 {
@@ -23,7 +24,7 @@ namespace P9_1214064.view
         string connectionstring = "datasource=127.0.0.1;port=3306;Uid=root;pwd=;database=ulbi;";
         public void logon()
         {
-            string query = "SELECT * FROM t_admin WHERE user='" + (tbUsername.Text) + "AND pass='" + (tbPassword.Text);
+            string query = "SELECT * FROM t_admin WHERE user='" + (tbUsername.Text) + "' AND pass='" + (tbPassword.Text) + "'";
 
             // Connecting MySql Database
             MySqlConnection databaseConnection = new MySqlConnection(connectionstring);
