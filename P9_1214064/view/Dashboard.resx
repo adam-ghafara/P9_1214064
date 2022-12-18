@@ -140,7 +140,7 @@
     <value>&amp;File</value>
   </data>
   <data name="aboutMeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="aboutMeToolStripMenuItem.Text" xml:space="preserve">
     <value>About Me</value>
@@ -665,7 +665,7 @@
     <value>3, 28</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>700, 569</value>
+    <value>700, 492</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -729,7 +729,7 @@
         XTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriXeW/h/sYH6AdFD6UeVjxS
         fNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2dmnafvvF05dOJZ+nPFmYKf5X+
         tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/MF72Rf3P4LeNt37vwd5MLWe+x7ys/
-        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALDwAACw8BkvkDpQAAHKFJREFUeF7tW2d4VUXX
+        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALDgAACw4BQL7hQQAAHKFJREFUeF7tW2d4VUXX
         nZuKioAgRYxIBxULYgeV4iuKqGiUKiCiqKiAImJeX8SCIoQSsSAQCEXECIIgtgCC1BB6EgKhhISQkE5J
         Qkgh+1tr5p7LTTwXSeT7l/M867nnzuzZs/bae+bMuQQlIlWoQhX+n2DbWIUqVOHSwLaxClWowqWBbWMV
         qlCFSwPbxipUoQqXBraNVahCFS4NbBurUIUqXBrYNlahClW4NLBtrEIVqnBpYNvojn+4HEAbINAD6gN2
@@ -859,6 +859,9 @@
   <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>37, 77</value>
   </data>
@@ -890,7 +893,7 @@
     <value>MS PGothic, 36pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 542</value>
+    <value>12, 456</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 48</value>
@@ -920,7 +923,7 @@
     <value>NoControl</value>
   </data>
   <data name="btClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 551</value>
+    <value>511, 465</value>
   </data>
   <data name="btClose.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 39</value>
@@ -956,7 +959,10 @@
     <value>Center</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>704, 599</value>
+    <value>704, 521</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Dashboard</value>

@@ -16,6 +16,7 @@ namespace P9_1214064.view
 {
     public partial class Dashboard : Form
     {
+        LoginForm logf = new LoginForm();
         public Dashboard()
         {
             InitializeComponent();
@@ -31,6 +32,7 @@ namespace P9_1214064.view
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            logf.Close();
             this.Close();
         }
 
@@ -42,6 +44,7 @@ namespace P9_1214064.view
 
         private void btClose_Click(object sender, EventArgs e)
         {
+            logf.Close();
             this.Close();
         }
     }
