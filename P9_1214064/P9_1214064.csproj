@@ -84,7 +84,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controller\admin_connection.cs" />
     <Compile Include="controller\connection.cs" />
     <Compile Include="controller\logging.cs" />
     <Compile Include="controller\mahasiswa.cs" />

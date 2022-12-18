@@ -42,7 +42,7 @@ namespace P9_1214064.view
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Dashboard dash = new Dashboard();
                     dash.Show();
-                    this.Hide();
+                    this.Close();
                 }
                 else
                 {

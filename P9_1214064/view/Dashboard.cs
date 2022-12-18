@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 
 namespace P9_1214064.view
 {
@@ -34,6 +38,11 @@ namespace P9_1214064.view
         private void dataMahasiswaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             dt_mhs.Show();
+        }
+
+        private void btClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
