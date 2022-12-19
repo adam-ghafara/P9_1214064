@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataMahasiswaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutMeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,6 +38,10 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btClose = new System.Windows.Forms.Button();
+            this.dataMasterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataTransaksiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stripNilai = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataMahasiswaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -48,6 +51,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
+            this.dataMasterToolStripMenuItem,
+            this.dataTransaksiToolStripMenuItem,
             this.helpToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
@@ -55,16 +60,9 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dataMahasiswaToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
-            // 
-            // dataMahasiswaToolStripMenuItem
-            // 
-            this.dataMahasiswaToolStripMenuItem.Name = "dataMahasiswaToolStripMenuItem";
-            resources.ApplyResources(this.dataMahasiswaToolStripMenuItem, "dataMahasiswaToolStripMenuItem");
-            this.dataMahasiswaToolStripMenuItem.Click += new System.EventHandler(this.dataMahasiswaToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -112,6 +110,32 @@
             this.btClose.UseVisualStyleBackColor = true;
             this.btClose.Click += new System.EventHandler(this.btClose_Click);
             // 
+            // dataMasterToolStripMenuItem
+            // 
+            this.dataMasterToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dataMahasiswaToolStripMenuItem1});
+            this.dataMasterToolStripMenuItem.Name = "dataMasterToolStripMenuItem";
+            resources.ApplyResources(this.dataMasterToolStripMenuItem, "dataMasterToolStripMenuItem");
+            // 
+            // dataTransaksiToolStripMenuItem
+            // 
+            this.dataTransaksiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stripNilai});
+            this.dataTransaksiToolStripMenuItem.Name = "dataTransaksiToolStripMenuItem";
+            resources.ApplyResources(this.dataTransaksiToolStripMenuItem, "dataTransaksiToolStripMenuItem");
+            // 
+            // stripNilai
+            // 
+            this.stripNilai.Name = "stripNilai";
+            resources.ApplyResources(this.stripNilai, "stripNilai");
+            this.stripNilai.Click += new System.EventHandler(this.inputNilaiToolStripMenuItem_Click);
+            // 
+            // dataMahasiswaToolStripMenuItem1
+            // 
+            this.dataMahasiswaToolStripMenuItem1.Name = "dataMahasiswaToolStripMenuItem1";
+            resources.ApplyResources(this.dataMahasiswaToolStripMenuItem1, "dataMahasiswaToolStripMenuItem1");
+            this.dataMahasiswaToolStripMenuItem1.Click += new System.EventHandler(this.dataMahasiswaToolStripMenuItem1_Click);
+            // 
             // Dashboard
             // 
             resources.ApplyResources(this, "$this");
@@ -144,11 +168,14 @@
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutMeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataMahasiswaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btClose;
+        private System.Windows.Forms.ToolStripMenuItem dataMasterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataMahasiswaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem dataTransaksiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem stripNilai;
     }
 }

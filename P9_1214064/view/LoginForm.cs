@@ -16,6 +16,8 @@ namespace P9_1214064.view
 {
     public partial class LoginForm : Form
     {
+        logging logpros = new logging();
+
         public LoginForm()
         {
             InitializeComponent();
@@ -68,7 +70,7 @@ namespace P9_1214064.view
                 else
                 {
 
-                    MessageBox.Show("Passowrd Harus Di isi", "Peringatan",
+                    MessageBox.Show("Password Harus Di isi", "Peringatan",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
@@ -76,6 +78,31 @@ namespace P9_1214064.view
             {
                 MessageBox.Show("Username harus di isi", "Peringatan",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void btLoginalter_Click(object sender, EventArgs e)
+        {
+            if (tbUsername.Text == "" || tbPassword.Text == "")
+            {
+                MessageBox.Show("Username dan Password tidak boleh kosong !!!!");
+            }
+            else
+            {
+                string User = tbUsername.Text;
+                string Pass = tbPassword.Text;
+
+                bool status = logpros.Login(User, Pass);
+                if (status)
+                {
+                    MessageBox.Show("Login Berhasil", "Berhasil");
+                    Dashboard dash = new Dashboard();
+                    dash.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Gagal Login", "Gagal");
+                }
             }
         }
     }

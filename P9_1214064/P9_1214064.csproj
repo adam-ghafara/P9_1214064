@@ -85,10 +85,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="controller\connection.cs" />
+    <Compile Include="controller\daftarnilai.cs" />
     <Compile Include="controller\logging.cs" />
     <Compile Include="controller\mahasiswa.cs" />
     <Compile Include="model\logsys.cs" />
     <Compile Include="model\m_mahasiswa.cs" />
+    <Compile Include="model\m_nilai.cs" />
     <Compile Include="view\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +105,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\FormNilai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormNilai.Designer.cs">
+      <DependentUpon>FormNilai.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +132,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\FormNilai.resx">
+      <DependentUpon>FormNilai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

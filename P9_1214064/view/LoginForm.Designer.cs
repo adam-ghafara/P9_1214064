@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btLogin = new System.Windows.Forms.Button();
             this.tbPassword = new System.Windows.Forms.TextBox();
+            this.btLoginalter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@
             // 
             // btLogin
             // 
-            this.btLogin.Location = new System.Drawing.Point(141, 320);
+            this.btLogin.Location = new System.Drawing.Point(191, 320);
             this.btLogin.Name = "btLogin";
             this.btLogin.Size = new System.Drawing.Size(94, 34);
             this.btLogin.TabIndex = 6;
@@ -92,11 +93,22 @@
             this.tbPassword.Size = new System.Drawing.Size(250, 20);
             this.tbPassword.TabIndex = 5;
             // 
+            // btLoginalter
+            // 
+            this.btLoginalter.Location = new System.Drawing.Point(91, 320);
+            this.btLoginalter.Name = "btLoginalter";
+            this.btLoginalter.Size = new System.Drawing.Size(94, 34);
+            this.btLoginalter.TabIndex = 8;
+            this.btLoginalter.Text = "Login";
+            this.btLoginalter.UseVisualStyleBackColor = true;
+            this.btLoginalter.Click += new System.EventHandler(this.btLoginalter_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(377, 377);
+            this.Controls.Add(this.btLoginalter);
             this.Controls.Add(this.btLogin);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.label2);
@@ -121,5 +133,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btLogin;
         private System.Windows.Forms.TextBox tbPassword;
+        private System.Windows.Forms.Button btLoginalter;
     }
 }

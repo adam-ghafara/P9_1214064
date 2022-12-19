@@ -40,6 +40,14 @@ namespace P9_1214064
             object datatable = data.Tables[0];
             return datatable;
         }
+
+        public MySqlDataReader reader(string query)
+        {
+            MySqlCommand commandDatabase = new MySqlCommand(query, kon);
+            commandDatabase.CommandTimeout = 60;
+            MySqlDataReader dr = commandDatabase.ExecuteReader();
+            return dr;
+        }
     }
 
 }

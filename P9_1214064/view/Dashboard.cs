@@ -37,6 +37,7 @@ namespace P9_1214064.view
         }
 
         Form dt_mhs = new Form1();
+        Form dt_nilai = new FormNilai();
         private void dataMahasiswaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             dt_mhs.Show();
@@ -46,6 +47,16 @@ namespace P9_1214064.view
         {
             logf.Close();
             this.Close();
+        }
+
+        private void inputNilaiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dt_nilai.Show();
+        }
+
+        private void dataMahasiswaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            dt_mhs.Show();
         }
     }
 }
