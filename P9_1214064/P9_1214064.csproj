@@ -88,9 +88,13 @@
     <Compile Include="controller\daftarnilai.cs" />
     <Compile Include="controller\logging.cs" />
     <Compile Include="controller\mahasiswa.cs" />
+    <Compile Include="controller\product.cs" />
+    <Compile Include="controller\transaksi.cs" />
     <Compile Include="model\logsys.cs" />
     <Compile Include="model\m_mahasiswa.cs" />
     <Compile Include="model\m_nilai.cs" />
+    <Compile Include="model\m_product.cs" />
+    <Compile Include="model\m_transaksi.cs" />
     <Compile Include="view\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +114,18 @@
     </Compile>
     <Compile Include="view\FormNilai.Designer.cs">
       <DependentUpon>FormNilai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormProduct.Designer.cs">
+      <DependentUpon>FormProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FormTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FormTransaction.Designer.cs">
+      <DependentUpon>FormTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="view\LoginForm.cs">
       <SubType>Form</SubType>
@@ -134,6 +150,12 @@
     </Compile>
     <EmbeddedResource Include="view\FormNilai.resx">
       <DependentUpon>FormNilai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormProduct.resx">
+      <DependentUpon>FormProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FormTransaction.resx">
+      <DependentUpon>FormTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

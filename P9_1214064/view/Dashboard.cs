@@ -58,5 +58,17 @@ namespace P9_1214064.view
         {
             dt_mhs.Show();
         }
+
+        private void dataMasterToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormProduct product = new FormProduct();
+            product.Show();
+        }
+
+        private void dataTransaksiToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormTransaction transaction = new FormTransaction();
+            transaction.Show();
+        }
     }
 }

@@ -121,11 +121,23 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;File</value>
+  </data>
+  <data name="dataMahasiswaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="dataMahasiswaToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Data &amp;Mahasiswa</value>
   </data>
   <data name="dataMasterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 20</value>
@@ -133,17 +145,47 @@
   <data name="dataMasterToolStripMenuItem.Text" xml:space="preserve">
     <value>Data Master</value>
   </data>
+  <data name="stripNilai.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="stripNilai.Text" xml:space="preserve">
+    <value>Input &amp;Nilai</value>
+  </data>
   <data name="dataTransaksiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 20</value>
   </data>
   <data name="dataTransaksiToolStripMenuItem.Text" xml:space="preserve">
     <value>Data Transaksi</value>
   </data>
+  <data name="aboutMeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="aboutMeToolStripMenuItem.Text" xml:space="preserve">
+    <value>About Me</value>
+  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Help</value>
+  </data>
+  <data name="dataMasterToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="dataMasterToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Data Master Barang</value>
+  </data>
+  <data name="dataTransaksiToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="dataTransaksiToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Data Transaksi</value>
+  </data>
+  <data name="tugasPraktikum11ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="tugasPraktikum11ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tugas Praktikum 11</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -169,18 +211,6 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Exit</value>
-  </data>
-  <data name="aboutMeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="aboutMeToolStripMenuItem.Text" xml:space="preserve">
-    <value>About Me</value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -952,18 +982,6 @@
   <data name="&gt;&gt;btClose.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="stripNilai.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="stripNilai.Text" xml:space="preserve">
-    <value>Input &amp;Nilai</value>
-  </data>
-  <data name="dataMahasiswaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="dataMahasiswaToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Data &amp;Mahasiswa</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1479,22 +1497,16 @@
   <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
-    <value>helpToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aboutMeToolStripMenuItem.Name" xml:space="preserve">
-    <value>aboutMeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aboutMeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;dataMasterToolStripMenuItem.Name" xml:space="preserve">
     <value>dataMasterToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;dataMasterToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataMahasiswaToolStripMenuItem1.Name" xml:space="preserve">
+    <value>dataMahasiswaToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;dataMahasiswaToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dataTransaksiToolStripMenuItem.Name" xml:space="preserve">
@@ -1509,10 +1521,34 @@
   <data name="&gt;&gt;stripNilai.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataMahasiswaToolStripMenuItem1.Name" xml:space="preserve">
-    <value>dataMahasiswaToolStripMenuItem1</value>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;dataMahasiswaToolStripMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutMeToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutMeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutMeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tugasPraktikum11ToolStripMenuItem.Name" xml:space="preserve">
+    <value>tugasPraktikum11ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tugasPraktikum11ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataMasterToolStripMenuItem1.Name" xml:space="preserve">
+    <value>dataMasterToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;dataMasterToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataTransaksiToolStripMenuItem1.Name" xml:space="preserve">
+    <value>dataTransaksiToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;dataTransaksiToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
