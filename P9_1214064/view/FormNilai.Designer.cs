@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btExport = new System.Windows.Forms.Button();
             this.tbFind = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -37,6 +38,8 @@
             this.btSimpan = new System.Windows.Forms.Button();
             this.btrefresh = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbMatkul = new System.Windows.Forms.ComboBox();
+            this.cbCategory = new System.Windows.Forms.ComboBox();
             this.tbNilai = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cbNPM = new System.Windows.Forms.ComboBox();
@@ -45,8 +48,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtvNilai = new System.Windows.Forms.DataGridView();
-            this.cbCategory = new System.Windows.Forms.ComboBox();
-            this.cbMatkul = new System.Windows.Forms.ComboBox();
             this.tbSiswa = new System.Windows.Forms.TextBox();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -57,18 +58,29 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.btExport);
             this.groupBox4.Controls.Add(this.tbFind);
             this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Location = new System.Drawing.Point(405, 271);
+            this.groupBox4.Location = new System.Drawing.Point(405, 263);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(319, 78);
+            this.groupBox4.Size = new System.Drawing.Size(319, 86);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Cari";
             // 
+            // btExport
+            // 
+            this.btExport.Location = new System.Drawing.Point(57, 45);
+            this.btExport.Name = "btExport";
+            this.btExport.Size = new System.Drawing.Size(96, 23);
+            this.btExport.TabIndex = 15;
+            this.btExport.Text = "Export to Excel";
+            this.btExport.UseVisualStyleBackColor = true;
+            this.btExport.Click += new System.EventHandler(this.btExport_Click);
+            // 
             // tbFind
             // 
-            this.tbFind.Location = new System.Drawing.Point(49, 26);
+            this.tbFind.Location = new System.Drawing.Point(57, 19);
             this.tbFind.Name = "tbFind";
             this.tbFind.Size = new System.Drawing.Size(255, 20);
             this.tbFind.TabIndex = 14;
@@ -77,7 +89,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 29);
+            this.label7.Location = new System.Drawing.Point(14, 22);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 13);
             this.label7.TabIndex = 13;
@@ -153,6 +165,38 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Form Input Data";
             // 
+            // cbMatkul
+            // 
+            this.cbMatkul.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbMatkul.FormattingEnabled = true;
+            this.cbMatkul.ItemHeight = 13;
+            this.cbMatkul.Items.AddRange(new object[] {
+            "Pemrograman I",
+            "Pemrograman II",
+            "Pemrograman III",
+            "Literasi Data",
+            "PKN",
+            "Sistem ERP",
+            "General English I",
+            "General English II"});
+            this.cbMatkul.Location = new System.Drawing.Point(66, 33);
+            this.cbMatkul.Name = "cbMatkul";
+            this.cbMatkul.Size = new System.Drawing.Size(306, 21);
+            this.cbMatkul.TabIndex = 12;
+            // 
+            // cbCategory
+            // 
+            this.cbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCategory.FormattingEnabled = true;
+            this.cbCategory.ItemHeight = 13;
+            this.cbCategory.Items.AddRange(new object[] {
+            "UTS",
+            "UAS"});
+            this.cbCategory.Location = new System.Drawing.Point(66, 77);
+            this.cbCategory.Name = "cbCategory";
+            this.cbCategory.Size = new System.Drawing.Size(306, 21);
+            this.cbCategory.TabIndex = 11;
+            // 
             // tbNilai
             // 
             this.tbNilai.Location = new System.Drawing.Point(66, 165);
@@ -227,38 +271,6 @@
             this.dtvNilai.TabIndex = 0;
             this.dtvNilai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtvNilai_CellClick);
             // 
-            // cbCategory
-            // 
-            this.cbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbCategory.FormattingEnabled = true;
-            this.cbCategory.ItemHeight = 13;
-            this.cbCategory.Items.AddRange(new object[] {
-            "UTS",
-            "UAS"});
-            this.cbCategory.Location = new System.Drawing.Point(66, 77);
-            this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(306, 21);
-            this.cbCategory.TabIndex = 11;
-            // 
-            // cbMatkul
-            // 
-            this.cbMatkul.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbMatkul.FormattingEnabled = true;
-            this.cbMatkul.ItemHeight = 13;
-            this.cbMatkul.Items.AddRange(new object[] {
-            "Pemrograman I",
-            "Pemrograman II",
-            "Pemrograman III",
-            "Literasi Data",
-            "PKN",
-            "Sistem ERP",
-            "General English I",
-            "General English II"});
-            this.cbMatkul.Location = new System.Drawing.Point(66, 33);
-            this.cbMatkul.Name = "cbMatkul";
-            this.cbMatkul.Size = new System.Drawing.Size(306, 21);
-            this.cbMatkul.TabIndex = 12;
-            // 
             // tbSiswa
             // 
             this.tbSiswa.Location = new System.Drawing.Point(220, 385);
@@ -278,6 +290,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FormNilai";
             this.Text = "FormNilai";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormNilai_FormClosing);
             this.Load += new System.EventHandler(this.FormNilai_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
@@ -313,5 +326,6 @@
         private System.Windows.Forms.ComboBox cbMatkul;
         private System.Windows.Forms.ComboBox cbCategory;
         private System.Windows.Forms.TextBox tbSiswa;
+        private System.Windows.Forms.Button btExport;
     }
 }

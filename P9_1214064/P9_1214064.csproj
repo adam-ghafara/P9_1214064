@@ -127,6 +127,12 @@
     <Compile Include="view\FormTransaction.Designer.cs">
       <DependentUpon>FormTransaction.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\FstartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FstartUp.Designer.cs">
+      <DependentUpon>FstartUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\FormTransaction.resx">
       <DependentUpon>FormTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FstartUp.resx">
+      <DependentUpon>FstartUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

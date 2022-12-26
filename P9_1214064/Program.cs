@@ -17,7 +17,7 @@ namespace P9_1214064
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new FstartUp());
         }
     }
 }
